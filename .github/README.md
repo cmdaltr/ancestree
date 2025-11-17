@@ -1,6 +1,32 @@
-# GitHub Actions for AncesTree
+# ⚙️ GitHub Actions Workflows
 
-This directory contains GitHub Actions workflows that automatically build executables for all platforms.
+<div align="center">
+
+### 🔄 CI/CD Automation Documentation
+
+**📖 This is NOT the main project documentation**
+
+👉 **Looking for Ancestree?** Go to [**Main README**](../README.md) 👈
+
+---
+
+**For:** Developers & DevOps
+**Contains:** Automated build workflows
+**Purpose:** Cross-platform executable generation
+
+</div>
+
+---
+
+## 📁 About This Directory
+
+This `.github/` directory contains **CI/CD automation workflows** using GitHub Actions to automatically build executables for Windows, macOS, and Linux.
+
+### Quick Links
+- 📘 [**Main Project README**](../README.md) - Installation, features, usage
+- 📖 [**User Guide**](../docs/FOR_USERS.md) - For end users
+- 🔧 [**Developer Guide**](../docs/FOR_DEVELOPERS.md) - For developers
+- 🔄 [**CI/CD Pipeline Docs**](../docs/CICD_PIPELINE.md) - Complete automation guide
 
 ## Workflows
 
@@ -14,9 +40,9 @@ Automatically builds Windows, macOS, and Linux executables.
 - Manual trigger via GitHub Actions tab
 
 **What it builds:**
-- **Windows**: `AncesTree.exe`
-- **macOS**: `AncesTree.dmg` (disk image with app bundle)
-- **Linux**: `AncesTree-x86_64.AppImage`
+- **Windows**: `Ancestree.exe`
+- **macOS**: `Ancestree.dmg` (disk image with app bundle)
+- **Linux**: `Ancestree-x86_64.AppImage`
 
 ## How to Use
 
@@ -73,9 +99,9 @@ Executables will be available as artifacts.
 3. Click on a workflow run
 4. Scroll to "Artifacts" section
 5. Download:
-   - `AncesTree-Windows` (Windows .exe)
-   - `AncesTree-macOS-DMG` (macOS disk image)
-   - `AncesTree-Linux` (Linux AppImage)
+   - `Ancestree-Windows` (Windows .exe)
+   - `Ancestree-macOS-DMG` (macOS disk image)
+   - `Ancestree-Linux` (Linux AppImage)
 
 ### From Releases:
 
