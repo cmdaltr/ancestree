@@ -1,9 +1,9 @@
 <div align="center">
   <img src="ancestree.png" alt="Ancestree Logo" width="560"/>
 
-  **A simple, beautiful family tree application for everyone**
+  **A simple, beautiful family tree application for everyone.**
 
-  Build and explore your family history with an easy-to-use interface. Perfect for beginners and tech-savvy genealogists alike.
+  Build and explore your family history with an easy-to-use interface on Windows, macOS and Linux.
 </div>
 
 ---
