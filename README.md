@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="ancestree.png" alt="Ancestree Logo" width="440"/>
+  <img src="ancestree.png" alt="Ancestree Logo" width="560"/>
 
   **A simple, beautiful family tree application for everyone**
 
