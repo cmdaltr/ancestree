@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+ancestree.db
+family_tree.db
+backend/data/
+
+# Environment
+.env
+
+# Uploads
+backend/uploads/images/*
+backend/uploads/documents/*
+!backend/uploads/.gitkeep
+
+# Node
+node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Misc
+.cache/
+tmp/
+temp/
+
+# Build outputs (created by build scripts)
+Ancestree.exe
+Ancestree.app/
+Ancestree.pkg
+Ancestree-x86_64.AppImage
+Ancestree-component.pkg
+distribution.xml
+package_build/
+appimagetool-x86_64.AppImage
+AppDir/
+dmg/

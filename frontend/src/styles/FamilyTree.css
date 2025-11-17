@@ -1,0 +1,33 @@
+.family-tree-container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--surface);
+  overflow: hidden;
+}
+
+.family-tree-svg {
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+}
+
+.family-tree-svg:active {
+  cursor: grabbing;
+}
+
+.node {
+  transition: all 0.3s ease;
+}
+
+.node.selected circle {
+  stroke-width: 3px;
+}
+
+.node:hover circle {
+  stroke-width: 3px;
+  filter: brightness(1.1);
+}
+
+.link {
+  pointer-events: none;
+}
